@@ -1,0 +1,10 @@
+.menu-item {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 1.25rem;
+    padding: 1.25rem 0;
+
+    &--active {
+        border-bottom: var(--primary-color) solid;
+    }
+}
