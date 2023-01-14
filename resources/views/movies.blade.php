@@ -6,6 +6,6 @@
 
 @section('content')
     <section class="content">
-        <h2>MOVIES</h2>
+        <h2 class="title">MOVIES</h2>
     </section>
 @endsection

@@ -12,7 +12,7 @@
         <nav class=" d-flex justify-content-end ">
             <ul class="list-unstyled d-flex">
                 <li><a class="menu-item" href="/characters"> CHARACTERS</a></li>
-                <li><a class="menu-item menu-item--active" href="">COMICS</a></li>
+                <li><a class="menu-item menu-item--active" href="/">COMICS</a></li>
                 <li><a class="menu-item" href="/movies">MOVIES</a></li>
                 <li><a class="menu-item" href="/tv">TV</a></li>
                 <li><a class="menu-item" href="/games">GAMES</a></li>
