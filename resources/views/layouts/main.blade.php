@@ -20,19 +20,8 @@
 
 <body>
     @include('partials.header')
-    <main>
-
+    <main class='bg-dark'>
         @yield('content')
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="min-vh-100 py-5 d-flex flex-column justify-content-center">
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </main>
     @include('partials.footer')
 </body>
