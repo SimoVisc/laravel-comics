@@ -2,7 +2,17 @@
     <div class="header-top bg-primary text-light">
         <div class="container d-flex justify-content-end">
             <small>DC POWER""VISA@</small>
-            <small>ADDITIONAL DC SITES <i class="fa-solid fa-caret-down"></i></small>
+            <small>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ADDITIONAL DC SITES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Site 1</a></li>
+                        <li><a class="dropdown-item" href="#">Site 2</a></li>
+                    </ul>
+                </div>
+            </small>
         </div>
     </div>
     <div class="container d-flex align-items-center justify-content-between">
@@ -20,7 +30,16 @@
                 <li><a class="menu-item" href="/videos">VIDEOS</a></li>
                 <li><a class="menu-item" href="/fans">FANS</a></li>
                 <li><a class="menu-item" href="/news">NEWS</a></li>
-                <li><a class="menu-item" href="">SHOP <i class="fa-solid fa-caret-down text-primary "></i></a>
+                <li>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Shop</a></li>
+                            <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </nav>
