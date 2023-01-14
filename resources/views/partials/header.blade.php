@@ -21,15 +21,15 @@
         </div>
         <nav class=" d-flex justify-content-end ">
             <ul class="list-unstyled d-flex">
-                <li><a class="menu-item" href="/characters"> CHARACTERS</a></li>
+                <li><a class="menu-item" href="{{ route('characters') }}"> CHARACTERS</a></li>
                 <li><a class="menu-item menu-item--active" href="/">COMICS</a></li>
-                <li><a class="menu-item" href="/movies">MOVIES</a></li>
-                <li><a class="menu-item" href="/tv">TV</a></li>
-                <li><a class="menu-item" href="/games">GAMES</a></li>
-                <li><a class="menu-item" href="/collectibles">COLLECTIBLES</a></li>
-                <li><a class="menu-item" href="/videos">VIDEOS</a></li>
-                <li><a class="menu-item" href="/fans">FANS</a></li>
-                <li><a class="menu-item" href="/news">NEWS</a></li>
+                <li><a class="menu-item" href="{{ route('movies') }}">MOVIES</a></li>
+                <li><a class="menu-item" href="{{ route('tv') }}">TV</a></li>
+                <li><a class="menu-item" href="{{ route('games') }}">GAMES</a></li>
+                <li><a class="menu-item" href="{{ route('collectibles') }}">COLLECTIBLES</a></li>
+                <li><a class="menu-item" href="{{ route('videos') }}">VIDEOS</a></li>
+                <li><a class="menu-item" href="{{ route('fans') }}">FANS</a></li>
+                <li><a class="menu-item" href="{{ route('news') }}">NEWS</a></li>
                 <li>
                     <div class="dropdown">
                         <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
