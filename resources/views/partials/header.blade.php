@@ -11,15 +11,15 @@
         </div>
         <nav class=" d-flex justify-content-end ">
             <ul class="list-unstyled d-flex">
-                <li><a class="menu-item" href=""> CHARACTERS</a></li>
+                <li><a class="menu-item" href="/characters"> CHARACTERS</a></li>
                 <li><a class="menu-item menu-item--active" href="">COMICS</a></li>
-                <li><a class="menu-item" href="">MOVIES</a></li>
-                <li><a class="menu-item" href="">TV</a></li>
-                <li><a class="menu-item" href="">GAMES</a></li>
-                <li><a class="menu-item" href="">COLLECTIBLES</a></li>
-                <li><a class="menu-item" href="">VIDEO</a></li>
-                <li><a class="menu-item" href="">FANS</a></li>
-                <li><a class="menu-item" href="">NEWS</a></li>
+                <li><a class="menu-item" href="/movies">MOVIES</a></li>
+                <li><a class="menu-item" href="/tv">TV</a></li>
+                <li><a class="menu-item" href="/games">GAMES</a></li>
+                <li><a class="menu-item" href="/collectibles">COLLECTIBLES</a></li>
+                <li><a class="menu-item" href="/video">VIDEO</a></li>
+                <li><a class="menu-item" href="/fans">FANS</a></li>
+                <li><a class="menu-item" href="/news">NEWS</a></li>
                 <li><a class="menu-item" href="">SHOP <i class="fa-solid fa-caret-down text-primary "></i></a>
                 </li>
             </ul>
