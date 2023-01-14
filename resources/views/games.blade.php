@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
 @section('page-title')
-    Movies
+    Games
 @endsection
 
 @section('content')
     <section class="content">
-        <h2>MOVIES</h2>
+        <h2>GAMES</h2>
     </section>
 @endsection

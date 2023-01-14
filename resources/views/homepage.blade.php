@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <section>
+    <section class="content">
         <h2>CURRENT SERIES</h2>
     </section>
 @endsection

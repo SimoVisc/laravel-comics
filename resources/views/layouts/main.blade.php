@@ -21,6 +21,7 @@
 <body>
     @include('partials.header')
     <main>
+
         @yield('content')
         <div class="container">
             <div class="row">
