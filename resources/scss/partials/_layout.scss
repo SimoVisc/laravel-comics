@@ -2,12 +2,6 @@
     margin-left: auto;
     margin-right: auto;
     max-width: var(--container-size);
-
-    &-small {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: calc(var(--container-size) - 200px);
-    }
 }
 .content {
     position: relative;
@@ -25,4 +19,12 @@
     max-width: 25%;
     color: #fff;
     padding: 20px;
+}
+.comics-img {
+    height: 60%;
+}
+.comics-text {
+    text-transform: uppercase;
+    font-size: 85%;
+    padding-top: 20%;
 }

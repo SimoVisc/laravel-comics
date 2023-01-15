@@ -9,12 +9,12 @@
         <div class="content">
             <h2 class="title">CURRENT SERIES</h2>
         </div>
-        <div class="container ">
+        <div class="container my-5 py-3">
             <div class="row">
                 @foreach ($comics as $comic)
                     <div class="col-2">
-                        <img class="w-100 img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
-                        <h5 class="text-light">{{ $comic['title'] }}</h5>
+                        <img class="comics-img w-100 img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                        <h5 class="comics-text text-light">{{ $comic['series'] }}</h5>
                     </div>
                 @endforeach
             </div>
