@@ -1,0 +1,40 @@
+// COMICS
+.comics-img {
+    height: 60%;
+}
+.comics-text {
+    text-transform: uppercase;
+    font-size: 85%;
+    padding-top: 20%;
+}
+.comics-btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    text-transform: uppercase;
+    border: none;
+    padding: 0.625rem 3.125rem;
+}
+.comics-bottom {
+    background-color: var(--primary-color);
+    ul {
+        list-style: none;
+        width: 100%;
+        padding: 1.25rem 0;
+    }
+    li {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        img {
+            width: 30%;
+            margin-right: 0.3125rem;
+        }
+        .img-big {
+            width: 20%;
+        }
+        span {
+            font-size: 85%;
+        }
+    }
+}
