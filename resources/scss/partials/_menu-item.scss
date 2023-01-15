@@ -3,9 +3,10 @@
     color: inherit;
     text-decoration: none;
     margin-left: 1.25rem;
-    padding: 1.25rem 0;
-
+    padding-top: 1.25rem;
+    padding-bottom: 87%;
     &--active {
-        border-bottom: var(--primary-color) solid;
+        border-bottom: 5px var(--primary-color) solid;
+        color: var(--primary-color);
     }
 }
